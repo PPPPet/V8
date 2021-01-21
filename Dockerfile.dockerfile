@@ -1,7 +1,7 @@
 FROM ubuntu:16.04
 
 ENV URL=URL
-ENV EMAIL=s.hols@erasmusmc.nl 
+
 
 RUN apt-get update -y && apt-get upgrade -y && apt-get autoremove -y
 RUN apt install gdebi-core -y
